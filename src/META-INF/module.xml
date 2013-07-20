@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+    <module jar="org-iesapp-modules-admin-importer.jar" class="org.iesapp.modules.admin.importer.MedicamentsModule" autoStart="no" multipleInstance="yes" closable="yes">
+        <anchor location="menu" parentId="jMenuModules"/>
+        <anchor location="toolbar" parentId="jToolBarModules"/>
+        <display location="topwindow" parentId="center"/>
+        <bundle>
+            <locale key="title" value="ca"><![CDATA[Importador de medicaments]]></locale>
+            <locale key="title" value="es"><![CDATA[Importador de medicamentos]]></locale>
+            <locale key="title" value="default"><![CDATA[Drugs importer]]></locale>
+            <locale key="description" value="default"><![CDATA[This module allows to import drugs for students]]></locale>            
+        </bundle>
+        <metaINF author="Josep Mulet (c) 2012" version="1.0" dependencies=""/>
+    </module> 
+    <module jar="org-iesapp-modules-admin-importer.jar" class="org.iesapp.modules.admin.importer.NeseModule" autoStart="no" multipleInstance="yes" closable="yes">
+        <anchor location="menu" parentId="jMenuModules"/>
+        <anchor location="toolbar" parentId="jToolBarModules"/>
+        <display location="topwindow" parentId="center"/>
+        <bundle>
+            <locale key="title" value="ca"><![CDATA[Importador d'alumnes NESE]]></locale>
+            <locale key="title" value="es"><![CDATA[Importador de alumnos NESE]]></locale>
+            <locale key="title" value="en"><![CDATA[NESE importer]]></locale>
+            <locale key="description" value="default"><![CDATA[This module allows to import students with specific learning difficulties]]></locale>            
+        </bundle>
+        <metaINF author="Josep Mulet (c) 2012" version="1.0" dependencies=""/>
+    </module>     
+</root>
